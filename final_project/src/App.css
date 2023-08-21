@@ -1,0 +1,43 @@
+.employee-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%; 
+  margin-right: 20px;
+}
+input, button {
+  margin-top: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007BFF; 
+}
+.btn, .card {
+  transition: all 0.3s ease;
+}
+
+.btn:hover, .card:hover {
+  transform: scale(1.05); 
+}
+.btn {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #0056b3; 
+}
+body {
+  background-color: #f4f4f431; 
+}
+#btnAdd {
+  background-color: #009688; 
+  color: #fff; 
+  border: none; 
+}
+
+#btnAdd:hover {
+  background-color: #00766c; 
+}
